@@ -104,6 +104,5 @@ body {
 }
 
 .points:hover {
-    border-color: 2px rgb(47, 0, 255);
     box-shadow: 5px 5px 5px rgb(47, 0, 255);
 }
