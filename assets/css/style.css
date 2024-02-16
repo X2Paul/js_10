@@ -104,9 +104,7 @@ body {
 }
 
 .indicators{
-    position: absolute;
-    bottom: 0;
-    left: 39%;
+    position: relative;
     display: flex;
     justify-content: center;
     gap: 30px;    
@@ -132,7 +130,7 @@ body {
     width: 50px;
 }
 
-.points:hover {
+.points{
     box-shadow: 3px 3px 10px 5px #000;
 }
 
