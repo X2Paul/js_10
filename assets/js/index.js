@@ -1,12 +1,3 @@
+const carousel = new SwipeCarousel('#myCarousel')
 
-    
-    const carousel = new SwipeCarousel('#myCarousel')
-
-    carousel.init()
-
-
-    
-    
-    
-    
-    
+carousel.init()   
