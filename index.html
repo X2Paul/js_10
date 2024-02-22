@@ -2,13 +2,22 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
+    <header>
+        <div class="header-list">
+            <div><a href="#">Home</a></div>
+            <div><a href="#">Articles</a></div>
+            <div><a href="#">Pages</a></div>
+            <div><a href="#">About us</a></div>
+        </div>
+    </header>
 
     <div id="carousel" class="carousel">
         <div id="slides-container" class="slides">
@@ -18,25 +27,13 @@
             <div class="slide"></div>
             <div class="slide"></div>
         </div>
-
-        <div id="controls-container" class="controls">
-            <span id="prev-btn" class="control control-prev"><img class="points" src="assets/img/prev.png"
-                    alt="prev"></span>
-            <span id="pause-btn" class="control control-pause points">Pause</span>
-            <span id="next-btn" class="control control-next"><img class="points" src="assets/img/next.png"
-                    alt="next"></span>
-        </div>
-
-        <div id="indicators-container" class="indicators">
-            <span class="indicator active" data-slide-to="0"></span>
-            <span class="indicator" data-slide-to="1"></span>
-            <span class="indicator" data-slide-to="2"></span>
-            <span class="indicator" data-slide-to="3"></span>
-            <span class="indicator" data-slide-to="4"></span>
-        </div>
     </div>
 
-    <script src="assets/js/main.js"></script>
+    <footer>
+        <div class="footer-list">Odesa 2024</div>
+    </footer>
+
+    <script src="assets/js/index.js" type="module"></script>
 </body>
 
 </html>
